@@ -526,8 +526,8 @@ screen and (min-resolution:2dppx) and (max-width:767px) {
     .hero {
         background-image: linear-gradient(to right,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero/people-office-tablet.jpg);
         padding-bottom: 108px;
-        padding-top: 111px;
-        min-width: 768px;
+        padding-top: 112px;
+        max-width: 768px;
     }
 }
 
@@ -574,7 +574,7 @@ screen and (min-resolution:2dppx) and (min-width:1440px) {
     color: var(--white);  
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 48px;
+    margin-bottom: 40px;
     width: 494px;
     height: 120px;
 }
