@@ -491,13 +491,13 @@ body {
 */
 
 .hero {
-    background-image: linear-gradient(to right,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero/people-office-desktop.jpg);
-    text-align: center; 
+    background-image: linear-gradient(to right,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero/people-office.jpg);
+    text-align: center;
     padding-bottom: 188px;
     padding-top: 188px;
     margin: auto;
     text-align: center;
-    min-width: 1440px;
+    max-width: 1440px;
     background-repeat: no-repeat;
     background-size: cover;
 }
