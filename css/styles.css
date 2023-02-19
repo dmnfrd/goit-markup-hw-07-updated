@@ -192,6 +192,18 @@ body {
 
 
 @media (min-width:320px) and (max-width:479px) {
+<<<<<<< Updated upstream
+=======
+    .container {
+        width: 100%;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .container {
         width:320px;
     }
@@ -239,8 +251,13 @@ body {
     align-items: center;
     height: 76px;
 }
+<<<<<<< Updated upstream
 
 @media (min-width:320px) and (max-width:479px) {
+=======
+  
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .header-container {
         height: 70px;
     }
@@ -323,7 +340,18 @@ body {
     align-items: center;
 }
 
+<<<<<<< Updated upstream
 @media (min-width:320px) and (max-width:479px) {
+=======
+
+@media (min-width:320px) and (max-width:479px) {
+    .nav-list {
+        display: none;
+    }
+}
+
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .nav-list {
         display: none;
     }
@@ -423,6 +451,17 @@ body {
     }
 }
 
+<<<<<<< Updated upstream
+=======
+
+@media (min-width:320px) and (max-width:479px) {
+    .contacts {
+        display: none;
+    }
+}
+
+
+>>>>>>> Stashed changes
 @media (min-width:480px) and (max-width:767px) {
     .contacts {
         display: none;
@@ -458,7 +497,12 @@ body {
 
 @media (min-width:320px) and (max-width:479px) {
     .contact-list {
+<<<<<<< Updated upstream
         display: none;
+=======
+        flex-direction: column;
+        gap: 4px;
+>>>>>>> Stashed changes
     }
 }
 
@@ -543,10 +587,18 @@ body {
 
 @media (min-width:320px) and (max-width:479px) {
     .hero {
+<<<<<<< Updated upstream
         width: 100%;
     }
 }
 
+=======
+        width: 100%;;
+    }
+}
+
+
+>>>>>>> Stashed changes
 @media (min-width:480px) and (max-width:767px) {
     .hero {
         background-image: linear-gradient(to right,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero/people-office-mobile.jpg);
@@ -626,6 +678,7 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 @media (min-width:320px) and (max-width:479px) {
     .hero-caption {
         width: 100%;
+<<<<<<< Updated upstream
         font-size: 36px;
         line-height: var(--one-one); 
         height: 80px;
@@ -633,6 +686,12 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
     }
 }
 
+=======
+    }
+}
+
+
+>>>>>>> Stashed changes
 @media (min-width:480px) and (max-width:767px) {
     .hero-caption {
         font-size: 36px;
@@ -697,6 +756,17 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 }
 
 @media (min-width:320px) and (max-width:479px) {
+<<<<<<< Updated upstream
+=======
+    .features-list {
+        gap: 72px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .features-list {
         gap: 72px;
         flex-direction: column;
@@ -745,6 +815,16 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 }
 
 @media (min-width:320px) and (max-width:479px) {
+<<<<<<< Updated upstream
+=======
+    .features-item {
+        width: 264px;
+        margin: auto;
+    }
+}
+
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .features-item {
         width: 100%;
     }
@@ -762,8 +842,12 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
     }
 }
 
+<<<<<<< Updated upstream
 
 @media (min-width:1200px) {
+=======
+@media (min-width:1440px) {
+>>>>>>> Stashed changes
     .features-item {
         width: 264px;
     }
@@ -874,6 +958,15 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 }
 
 @media (min-width:320px) and (max-width:479px) {
+<<<<<<< Updated upstream
+=======
+    .features-icon {
+        display: none;
+    }
+}
+
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .features-icon {
         display: none;
     }
@@ -986,8 +1079,12 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
     }
 }
 
+<<<<<<< Updated upstream
 
 @media (min-width:480px) and (max-width:767px) {
+=======
+@media (min-width:48px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .team-list {
         display: flex; 
         flex-direction: column;
@@ -1025,12 +1122,18 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
     background: var(--white);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    width: 264px;
 }
 
 @media (min-width:320px) and (max-width:479px) {
     .team-card {
+<<<<<<< Updated upstream
         margin: 0 auto;
         width: 264px;
+=======
+        width: 264px;
+        margin: 0 auto;
+>>>>>>> Stashed changes
     }
 }
 
@@ -1127,6 +1230,16 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 }
 
 @media (min-width:320px) and (max-width:479px) {
+<<<<<<< Updated upstream
+=======
+    .clients {
+        padding-bottom: 96px;
+        padding-top: 96px;
+    }
+}
+
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .clients {
         padding-bottom: 96px;
         padding-top: 96px;
@@ -1180,8 +1293,20 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
     gap: 24px;
 }
 
-
 @media (min-width:320px) and (max-width:479px) {
+    .clients-list {
+    width: 190px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    }
+}
+
+<<<<<<< Updated upstream
+@media (min-width:320px) and (max-width:479px) {
+=======
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .clients-list {
         align-items: center;
         display: flex;
@@ -1245,6 +1370,7 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
     transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+<<<<<<< Updated upstream
 @media (min-width:320px) and (max-width:479px) {
     .clients-link {
         width: 100%;
@@ -1252,6 +1378,15 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 }
 
 
+=======
+
+@media (min-width:320px) and (max-width:479px) {
+    .clients-link {
+        width: 168px;
+    }
+}
+
+>>>>>>> Stashed changes
 @media (min-width:480px) and (max-width:767px) {
     .clients-link {
         width: 190px;
@@ -1293,6 +1428,14 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 }
 
 @media (min-width:320px) and (max-width:479px) {
+<<<<<<< Updated upstream
+=======
+    .footer {
+        padding: 96px 0;
+}
+
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .footer {
         padding: 96px 0;
     }
@@ -1330,6 +1473,16 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 }
 
 @media (min-width:320px) and (max-width:479px) {
+<<<<<<< Updated upstream
+=======
+    .footer-container {
+        flex-direction: column;
+    }
+}
+
+
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .footer-container {
         flex-direction: column;
     }
@@ -1374,6 +1527,10 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
     } 
 }
 
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 @media (min-width:480px) and (max-width:767px) {
     .logo-footer {
         display: flex;
@@ -1428,6 +1585,16 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 */
 
 @media (min-width:320px) and (max-width:479px) {
+<<<<<<< Updated upstream
+=======
+    .footer-wrap {
+        margin: 0 auto;
+    }
+}
+
+
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .footer-wrap {
         margin: 0 auto;
     }
@@ -1464,6 +1631,10 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 @media (min-width:320px) and (max-width:479px) {
     .footer-text {
         margin-bottom: 72px;
+<<<<<<< Updated upstream
+=======
+        width: 100%;
+>>>>>>> Stashed changes
     }
 }
 
@@ -1485,6 +1656,18 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 }
 
 @media (min-width:320px) and (max-width:479px) {
+<<<<<<< Updated upstream
+=======
+    .footer-social {
+        margin-bottom: 16px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .footer-social {
         margin: 0 auto;
         text-align: center;
@@ -1532,6 +1715,18 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 }
 
 @media (min-width:320px) and (max-width:479px) {
+<<<<<<< Updated upstream
+=======
+    .footer-subscribe {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 72px;
+    }
+}
+
+
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .footer-subscribe {
         margin: 0 auto;
         text-align: center;
@@ -1644,6 +1839,7 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
     color:var(--white);
 }
 
+<<<<<<< Updated upstream
 @media (min-width:320px) and (max-width:479px) {
     .footer-form-input {
         width: 100%;
@@ -1651,6 +1847,15 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 }
 
 
+=======
+
+@media (min-width:320px) and (max-width:479px) {
+    .footer-form-input {
+        width: 264px;
+    }
+}
+
+>>>>>>> Stashed changes
 @media (min-width:480px) and (max-width:767px) {
     .footer-form-input {
         width: 396px;
@@ -1702,6 +1907,15 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 }
 
 @media (min-width:320px) and (max-width:479px) {
+<<<<<<< Updated upstream
+=======
+    .footer-button {
+        margin-left: 0;
+    }
+}
+
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .footer-button {
         margin-left: 0;
     }
@@ -1783,7 +1997,7 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
     position: absolute;
     content: '';
     border-radius: 2px;
-    bottom: -24px; 
+    bottom: -26px; 
     margin: 0 auto;
     left: 0;
     right: 0; 
@@ -1954,6 +2168,7 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
     box-shadow: 0px 1px 1px 0px #00000024;
 }
 
+<<<<<<< Updated upstream
 @media (min-width:320px) and (max-width:479px) {
     .modal {
         width: 100%;
@@ -1961,6 +2176,8 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
     }
 }
 
+=======
+>>>>>>> Stashed changes
 @media (min-width:480px) and (max-width:767px) {
     .modal {
         position: absolute; 
@@ -2214,7 +2431,11 @@ textarea:focus {
     margin: 0;
 }
   
+<<<<<<< Updated upstream
 @media (min-width:320px) and (max-width:479px) {
+=======
+@media (min-width:480px) and (max-width:767px) {
+>>>>>>> Stashed changes
     .menu {
         display:none;
     }
@@ -2410,4 +2631,7 @@ background-color: rgba(0, 0, 0, 0.1);
     bottom: 40px;
 }
 
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
