@@ -544,6 +544,8 @@ body {
 @media (min-width:320px) and (max-width:479px) {
     .hero {
         width: 100%;
+        padding-bottom: 112px;
+        padding-top: 112px;
     }
 }
 
@@ -552,7 +554,7 @@ body {
         background-image: linear-gradient(to right,rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/hero/people-office-mobile.jpg);
         padding-bottom: 112px;
         padding-top: 112px;
-        min-width: 428px;
+        min-width: 480px;
     }
 }
 
@@ -2291,6 +2293,7 @@ textarea:focus {
     border: none;
     outline: none;
     margin-left: auto;
+    stroke: var(--dark);
 }
   
 
@@ -2421,13 +2424,13 @@ background-color: rgba(0, 0, 0, 0.1);
 }
 
 .link.last {
-    color: var(--primary-brand);
+    color: var(--pressed-state);
 }
 
 
 @media (min-width:320px) and (max-width:479px) {
     .link.last {
-        color: var(--primary-brand);
+        color: var(--pressed-state);
     }   
 }
 
@@ -2446,7 +2449,7 @@ background-color: rgba(0, 0, 0, 0.1);
     font-size: var(--36px);
     line-height: var(--one-one);
     text-transform: capitalize;
-    color: var(--primary-brand);
+    color: var(--pressed-state);
     font-style: normal;
 }
  
@@ -2456,7 +2459,7 @@ background-color: rgba(0, 0, 0, 0.1);
         font-size:30px;
         line-height: var(--one-one);
         text-transform: capitalize;
-        color: var(--primary-brand);
+        color: var(--pressed-state);
         font-style: normal;
     }
 }
