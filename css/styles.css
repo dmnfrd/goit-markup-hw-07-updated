@@ -793,7 +793,7 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
         font-weight: var(--700);
         font-size: var(--36px);
         line-height: var(--one-one);  
-        text-align: center;hj
+        text-align: center;
     }
 }
 
