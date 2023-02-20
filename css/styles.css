@@ -1414,6 +1414,14 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
     margin-bottom: 16px;
 }
 
+@media (min-width:320px) and (max-width:479px) {
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+
 .footer-logo-white {
     font-family: 'Raleway';
     font-weight: var(--800);
@@ -1797,7 +1805,7 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
     position: absolute;
     content: '';
     border-radius: 2px;
-    bottom: -24px; 
+    bottom: -27px; 
     margin: 0 auto;
     left: 0;
     right: 0; 
@@ -1805,7 +1813,7 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
 
 /* Main section */
 
-.main {
+.main-portfolio {
     padding-top: 96px;
     padding-bottom: 120px;
 }
@@ -1815,6 +1823,12 @@ screen and (min-resolution:2dppx) and (min-width:1200px) {
     gap:24px;
     justify-content:center;
     margin-bottom: 72px;
+}
+
+@media (min-width:320px) and (max-width:479px) {
+    .main-portfolio {
+        display: none;
+    }
 }
 
 .button-item {
@@ -2228,13 +2242,7 @@ textarea:focus {
     padding: 0;
     margin: 0;
 }
-  
-@media (min-width:320px) and (max-width:479px) {
-    .menu {
-        display:none;
-    }
-      
-}
+
 
 @media (min-width:768px) and (max-width:1199px) {
     .menu {
